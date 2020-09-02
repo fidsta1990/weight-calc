@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Solid:wght@400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: cornflowerblue;
+  font-family: "Londrina Solid", cursive;
+}
+
+.container {
+  min-height: 100vh;
+  width: 100vw;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container h1 {
+  text-align: center;
+  margin-top: 5rem;
+  font-size: 4rem;
+  color: rgb(255, 255, 255);
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem 0 2rem 0;
+}
+
+.form-group {
+  width: 50%;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 1rem;
+}
+
+input[type="number"] {
+  font-size: 1.4rem;
+  color: green;
+  border: none;
+  border-radius: 0.7rem;
+  box-shadow: 0px 2px 4px black;
+}
+input[type="number"]:hover {
+  font-size: 1.4rem;
+  color: green;
+  border: none;
+  border-radius: 0.7rem;
+  box-shadow: 0px 2px 10px rgb(112, 112, 112);
+}
+
+input:focus {
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.301);
+  outline: none;
+}
+
+input::placeholder {
+  font-size: 1.2rem;
+  color: grey;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+}
+
+.output {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.card {
+  margin: 1rem 0;
+  border-radius: 0.7rem;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.301);
+  max-width: 525px;
+  width: 100%;
+}
+.card:nth-child(1) {
+  background: rgb(22, 184, 22);
+}
+.card:nth-child(2) {
+  background: rgb(255, 187, 0);
+}
+.card:nth-child(3) {
+  background: rgb(223, 62, 174);
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  letter-spacing: 0.2rem;
+  color: #fff;
+}
+
+.card-container div,
+h4 {
+  margin: 1rem;
+}
